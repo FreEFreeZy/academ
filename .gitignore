@@ -1,3 +1,5 @@
 .venv
 build
-my_fastapi_app.egg-info
+academ.egg-info
+.idea
+.env

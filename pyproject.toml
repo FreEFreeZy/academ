@@ -1,7 +1,7 @@
 [project]
-name = "my-fastapi-app"
+name = "academ"
 version = "0.1.0"
-requires-python = ">=3.8"
+requires-python = "==3.13.9"
 dependencies = [
     "fastapi==0.121.2",
     "uvicorn[standard]==0.38.0",
@@ -10,5 +10,6 @@ dependencies = [
     "alembic==1.17.2",
     "pydantic==2.12.4",
     "python-jose[cryptography]==3.5.0",
-    "passlib[bcrypt]==1.7.4"
+    "passlib[bcrypt]==1.7.4",
+    "mypy==1.18.2"
 ]
